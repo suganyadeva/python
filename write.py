@@ -1,0 +1,10 @@
+#PROGRAM TO WRITE IN A FILE
+f=open("d:/python/text1.txt","r")
+str=f.readline()
+print(str)
+str1=f.read(10)
+print(str1)
+print(f.tell())
+print(f.read(10))
+print(f.seek(5,0))
+print(f.read(5))
